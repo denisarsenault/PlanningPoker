@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  iPlanningPoker
+
+  Created by Denis Arsenault on 03/11/14
+  Copyright (c) mybrightzone All rights reserved.
+*/
+
+"clientView.searchingServer" = "Looking for an iPad";
+"clientView.serverFound" = "Found iPad '%@'. Connecting...";
+"clientView.disconnected" = "Disconnected";
+"clientView.disconnectedText" = "You were disconnected from the server";
+"clientView.noNetwork" = "Network not available";
+"clientView.noNetworkText" = "Please enable your Wifi and/or Bluetooth";
+"serverView.noNetwork" = "Network not available";
+"serverView.noNetworkText" = "Please enable your Wifi and/or Bluetooth";
+"serverView.userQuit" = "Connection closed";
+"serverView.userQuitText" = "You have closed the planning and closed all connections to the clients";
+
+"buttons.startPlanning" = "Start the planning";
+"buttons.connectingClients" = "Connecting clients...";
+"buttons.ok" = "OK";
