@@ -350,10 +350,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = mybrightzone;
+				ORGANIZATIONNAME = MyBrightZone;
 				TargetAttributes = {
 					0294549E17253019003C54B7 = {
 						DevelopmentTeam = GVZRY6KDKR;
+					};
+					029454C717253019003C54B7 = {
+						DevelopmentTeam = B8P24AZNQT;
 					};
 				};
 			};
@@ -636,7 +639,7 @@
 				GCC_PREFIX_HEADER = "iPlanningPoker/iPlanningPoker-Prefix.pch";
 				INFOPLIST_FILE = "iPlanningPoker/iPlanningPoker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.malwarebytes.iPlanningPoker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybrightzone.iPlanningPoker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -659,7 +662,7 @@
 				GCC_PREFIX_HEADER = "iPlanningPoker/iPlanningPoker-Prefix.pch";
 				INFOPLIST_FILE = "iPlanningPoker/iPlanningPoker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.malwarebytes.iPlanningPoker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybrightzone.iPlanningPoker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -670,6 +673,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPlanningPoker.app/iPlanningPoker";
+				DEVELOPMENT_TEAM = B8P24AZNQT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -683,7 +687,7 @@
 					"-framework",
 					XCTest,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mybrightzone..iPlanningPokerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybrightzone.iPlanningPokerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -694,6 +698,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPlanningPoker.app/iPlanningPoker";
+				DEVELOPMENT_TEAM = B8P24AZNQT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -707,7 +712,7 @@
 					"-framework",
 					XCTest,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mybrightzone..iPlanningPokerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybrightzone.iPlanningPokerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
